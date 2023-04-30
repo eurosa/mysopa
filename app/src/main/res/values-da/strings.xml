@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ord Søgning</string>
+
+
+
+
+
+    <string name="pref_title_language">Sprog</string>
+
+
+    <string name="rta_dialog_title">Bedøm appen</string>
+    <string name="rta_dialog_message">Hvis du synes om appen, må du gerne bedømme den. Det tager højst et minut. Tak for din hjælp.</string>
+    <string name="rta_dialog_ok">Bedøm nu</string>
+    <string name="rta_dialog_cancel">Senere</string>
+    <string name="rta_dialog_no">Nej tak</string>
+
+
+
+    <string name="settings">İndstillinger</string>
+    <string name="well_done">Tillykke!</string>
+
+    <string name="change_language">Skift sprog?</string>
+    <string name="difficult">Svært</string>
+    <string name="difficulty">Vanskelighed</string>
+    <string name="easy">Let</string>
+
+    <string name="grid">Grid</string>
+    <string name="home">Hjem</string>
+    <string name="marquee">Glidende Prikker</string>
+    <string name="medium">Middel</string>
+    <string name="night_mode">Nattilstand</string>
+    <string name="no">Ingen</string>
+    <string name="paused">Midlertidigt Afbrudt</string>
+    <string name="play">Spille</string>
+    <string name="play_again">Spil Igen</string>
+
+    <string name="pret_difficult">Overordentlig Vanskelig</string>
+    <string name="ext_difficult">Ekstremt Svært</string>
+    <string name="sup_difficult">Yderst Vanskeligt</string>
+
+
+    <string name="restart">Genstart</string>
+    <string name="resume">Fortsætte</string>
+    <string name="reward_text">Se en video for at få 3 tip?</string>
+    <string name="sound">Lyd</string>
+
+    <string name="very_difficult">Meget Svært</string>
+    <string name="very_easy">Meget Let</string>
+    <string name="watch_video">Se video</string>
+    <string name="yes">Ja</string>
+    <string name="letter_anim">Bogstav Animation</string>
+    <string name="num_cols_label">Antal Ordkolonner</string>
+    <string name="time_mode_title">Frist</string>
+    <string name="time_limited_option">Tidsbegrænset</string>
+    <string name="no_time_limit_option">Ingen tidsbegrænsning</string>
+    <string name="time_is_up">Tid er færdig!</string>
+    <string name="continue_playing">Fortsæt med at spille?</string>
+    <string name="retry">Prøve igen</string>
+    <string name="how_to_play_title">Hvordan man spiller</string>
+    <string name="how_to_play_text">Find skjulte ord i gitteret vandret, lodret eller diagonalt.</string>
+    <string name="hints_title">Brug tip</string>
+    <string name="hints_text">Du kan afsløre det første bogstav i det næste ord, når du sidder fast.</string>
+    <string name="hint_reward_title">Hint belønning</string>
+    <string name="hint_reward_text">Du kan få tip ved at se en kort video, når du løber tør for dem.</string>
+    <string name="extremely_easy">Ekstremt Let</string>
+    <string name="privacy">Privatliv</string>
+</resources>

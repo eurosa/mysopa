@@ -1,0 +1,51 @@
+<resources>
+   <!-- Colores del Tema por defecto: Claro-->
+    <color name="app_bg">#70C9F1</color> <!--Fondo pantalla principal y de todas las pantallas de la app, texto de botones sgue jugando, iniciar, texto tiempo limitado/sin limite-->
+    <color name="light_brown_text">#FFEB3B</color> <!--Fondo interno y texto en pantalla de ayuda-->
+    <color name="black">#000000</color> <!--Inicio splash pantalla principal-->
+    <color name="stripe">#FFFFFF</color> <!--Titulos "Dificultad" y Palabras encontradas parte superior sopa-->
+    <color name="text_color">#040200</color><!--Palabras en lista de sopa de letras-->
+    <color name="home_title">#050300</color> <!--Texto titulo pantalla principal + "se esta agotando el tiempo", "En pausa"-->
+    <color name="button_text">#FFFFFF</color> <!--Texto del botón "Jugar"-->
+    <color name="grid_letter_color">@color/secondary_color_darker</color> <!--Color de letras de la sopa cuadricula-->
+
+    <color name="play_btn">#FF5722</color> <!--Botón Jugar-->
+    <color name="paused_menu_btn_down">#F3B356</color>
+    <color name="secondary_color">#0198A5</color> <!--Fondo botón no activo ajuste, Fondo Titulo Dificultad,En Pausa y Ajustes,Fondo "se acabo el tiempo superior e inferior, Fondo superior Tiempo Limitado/Sin Limite, Fondo superior e inferior ayuda, Fondo superior Felicitaciones-->
+    <color name="secondary_color_dark">#5c482a</color> <!--Fondo central Tiempo Ilimitado/Sin limite, Botones superiores sopa de letras, Fondo interno y botones de se acabo el tiempo, boton configuración Felicidades-->
+    <color name="secondary_color_darker">#5c482a</color>
+
+    <color name="pause_btn_color">#0C0C0C</color> <!--Texto Listado Niveles de dificultad-->
+
+    <color name="diff_title">@color/home_title</color>
+    <color name="diff_btn_up">#DFFEFF</color> <!--Fondo listado de Niveles de dificultad +Fondo sopa letras+ fondo subtitulos de En pausa, Fondo ajustes-->
+    <color name="diff_btn_down">#CBEFE8</color><!--Fondo al presionar botones todos los menu-->
+    <color name="preview_bg">#D7FCFC</color> <!--Fondo superior de palabras encontradas sopa de letras-->
+
+    <!--Colores para el Tema Noche-->
+
+    <color name="dialog_bg_n">#262b35</color>
+    <color name="app_bg_n">#16191e</color>
+
+    <color name="text_color_n">#e7e7e7</color>
+    <color name="home_title_n">@color/text_color_n</color>
+    <color name="button_text_n">#d3d3d3</color>
+    <color name="secondary_color_n">#040405</color>
+    <color name="grid_color_n">#000000</color>
+
+    <color name="diff_btn_up_n">#30363f</color>
+    <color name="diff_btn_down_n">#24282e</color>
+    <color name="diff_btn_text_n">@color/text_color_n</color>
+    <color name="stripe_n">#38527b</color>
+    <color name="stripe_darker_n">#304669</color>
+
+    <color name="confirm_text">#878787</color>
+    <color name="confirm_btn_text">#121418</color>
+    <color name="red">#FF0000</color>
+    <color name="hint_bg">#F35726</color>
+
+    <color name="reddish">#fc3538</color>
+
+
+
+</resources>

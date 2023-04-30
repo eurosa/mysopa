@@ -1,0 +1,65 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 33
+    buildToolsVersion '33.0.0'
+
+    defaultConfig {
+        applicationId "net.movilappspac.sopadeletras.delabiblia"
+        minSdkVersion 19
+        targetSdkVersion 33
+        versionCode 1
+        versionName "1.0"
+        multiDexEnabled true
+    }
+
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+
+
+    configurations.all {
+        resolutionStrategy {
+            force "com.google.android.gms:play-services-basement:17.0.0"
+            force "com.google.android.gms:play-services-base:17.1.0"
+            force "com.google.android.gms:play-services-stats:17.0.0"
+            force "com.google.android.gms:play-services-gcm:17.0.0"
+            force "com.google.android.gms:play-services-ads:19.7.0"
+        }
+    }
+
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+    api 'com.readystatesoftware.sqliteasset:sqliteassethelper:+'
+
+    api project(':pageindicatorview')
+
+
+    api ('com.google.android.gms:play-services-ads:22.0.0'){
+        exclude group: "com.android.support"
+    }
+
+
+
+    implementation ('com.google.android.ads.consent:consent-library:1.0.8'){
+        exclude group: "com.android.support"
+    }
+
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'com.google.android.material:material:1.6.0'
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'com.google.firebase:firebase-ads:20.3.0'
+    implementation 'com.android.support:multidex:1.0.3'
+    // For Java
+    implementation 'androidx.work:work-runtime:2.7.1'
+    // For Kotlin
+    implementation 'androidx.work:work-runtime-ktx:2.7.1'
+}
+

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Sopa de Letras Bíblicas</string>
+
+
+
+
+    <string name="pref_title_language">Idioma</string>
+
+    <string name="rta_dialog_title">Evalúa esta aplicación</string>
+    <string name="rta_dialog_message">Si te gusta esta aplicación, toma un momento para evaluarla. No tomará más de un minuto. ¡Gracias por tu apoyo!</string>
+    <string name="rta_dialog_ok">Evaluar</string>
+    <string name="rta_dialog_cancel">Más tarde</string>
+    <string name="rta_dialog_no">No, gracias</string>
+
+
+
+
+    <string name="settings">Ajustes</string>
+    <string name="well_done">Felicitaciones!</string>
+
+    <string name="change_language">¿Cambiar idioma?</string>
+    <string name="difficult">Difícil</string>
+    <string name="difficulty">Dificultad</string>
+    <string name="easy">Fácil</string>
+
+    <string name="grid">Cuadrícula</string>
+    <string name="home">Casa</string>
+    <string name="marquee">Puntos Deslizantes</string>
+    <string name="medium">Medio</string>
+    <string name="night_mode">Modo Nocturno</string>
+    <string name="no">No</string>
+    <string name="paused">En Pausa</string>
+    <string name="play">Jugar</string>
+    <string name="play_again">Juega de Nuevo</string>
+    <string name="ext_difficult">Extremadamente Difícil</string>
+    <string name="sup_difficult">Sumamente Difícil</string>
+    <string name="pret_difficult">Excesivamente Difícil</string>
+    <string name="restart">Reiniciar</string>
+    <string name="resume">Continuar</string>
+    <string name="reward_text">Ver un video para obtener 3 pistas?</string>
+    <string name="sound">Sonar</string>
+
+
+    <string name="very_difficult">Muy Difícil</string>
+    <string name="very_easy">Muy Fácil</string>
+    <string name="watch_video">Ver Video</string>
+    <string name="yes">Sí</string>
+    <string name="letter_anim">Animación de Letras</string>
+
+    <string name="num_cols_label">Número de Columnas de Palabras</string>
+
+    <string name="time_mode_title">Límite de tiempo</string>
+    <string name="time_limited_option">Tiempo limitado</string>
+    <string name="no_time_limit_option">Sin límite de tiempo</string>
+    <string name="time_is_up">¡Se acabó el tiempo!</string>
+    <string name="continue_playing">Sigue jugando?</string>
+    <string name="retry">Iniciar</string>
+    <string name="how_to_play_title">Cómo jugar</string>
+    <string name="how_to_play_text">Encuentra palabras ocultas en la cuadrícula de forma horizontal, vertical o diagonal.</string>
+    <string name="hints_title">Use sugerencias</string>
+    <string name="hints_text">Puedes revelar la primera letra de la siguiente palabra cuando estés atascado.</string>
+    <string name="hint_reward_title">Sugerencia de recompensa</string>
+    <string name="hint_reward_text">Puedes ganar tiempo viendo un video corto cuando te quedas sin tiempo.</string>
+    <string name="extremely_easy">Extremadamente Facil</string>
+    <string name="privacy">Intimidad</string>
+</resources>

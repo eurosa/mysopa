@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Sopa_de_letras_kerish.iml" filepath="$PROJECT_DIR$/.idea/modules/Sopa_de_letras_kerish.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Sopa_de_letras_kerish.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Sopa_de_letras_kerish.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Sopa_de_letras_kerish.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Sopa_de_letras_kerish.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Sopa_de_letras_kerish.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Sopa_de_letras_kerish.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Sopa_de_letras_kerish.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Sopa_de_letras_kerish.app.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/pageindicatorview/Sopa_de_letras_kerish.pageindicatorview.iml" filepath="$PROJECT_DIR$/.idea/modules/pageindicatorview/Sopa_de_letras_kerish.pageindicatorview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/pageindicatorview/Sopa_de_letras_kerish.pageindicatorview.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/pageindicatorview/Sopa_de_letras_kerish.pageindicatorview.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/pageindicatorview/Sopa_de_letras_kerish.pageindicatorview.main.iml" filepath="$PROJECT_DIR$/.idea/modules/pageindicatorview/Sopa_de_letras_kerish.pageindicatorview.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/pageindicatorview/Sopa_de_letras_kerish.pageindicatorview.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/pageindicatorview/Sopa_de_letras_kerish.pageindicatorview.unitTest.iml" />
+    </modules>
+  </component>
+</project>
