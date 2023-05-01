@@ -6,6 +6,8 @@ import android.content.res.Resources;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import androidx.core.content.ContextCompat;
+
+import android.util.Log;
 import android.view.View;
 import android.view.Window;
 import android.view.animation.AccelerateInterpolator;
@@ -99,7 +101,7 @@ public class LanguageDialog extends Dialog implements View.OnClickListener {
     @Override
     public void onClick(final View view) {
         SoundPlayer.playSound(context, SoundPlayer.CLICK);
-        String code = Settings.getStringValue(context, context.getResources().getString(R.string.pref_key_language), Constants.DEFAULT_LANGUAGE);
+        String code = "es";//Settings.getStringValue(context, context.getResources().getString(R.string.pref_key_language), Constants.DEFAULT_LANGUAGE);
 
         int resID = context.getResources().getIdentifier(code, "id", context.getPackageName());
 
@@ -160,9 +162,10 @@ public class LanguageDialog extends Dialog implements View.OnClickListener {
 
 
     private void setSelectedLanguage(){
-        String code = Settings.getStringValue(context, context.getResources().getString(R.string.pref_key_language), Constants.DEFAULT_LANGUAGE);
+        String code = "es";//Settings.getStringValue(context, context.getResources().getString(R.string.pref_key_language), Constants.DEFAULT_LANGUAGE);
 
         int resID = context.getResources().getIdentifier(code, "id", context.getPackageName());
+        Log.d("my_language", String.valueOf(resID)+" "+code);
         final RelativeLayout rl = findViewById(resID);
         ((RelativeLayout)rl.getChildAt(1)).getChildAt(0).setVisibility(View.VISIBLE);
 

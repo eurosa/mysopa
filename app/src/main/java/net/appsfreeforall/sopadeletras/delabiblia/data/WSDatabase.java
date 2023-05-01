@@ -41,8 +41,10 @@ public class WSDatabase extends SQLiteAssetHelper {
     public String[] getRandomWords(){
         String[] words = new String[0];
         try {
-    database.execSQL("CREATE TEMP TABLE "+temp_rows+"  AS SELECT "+word+"  FROM "+selectedLangTable+" WHERE random() % 4 = 0 LIMIT 2000");
-    Cursor cursor = database.rawQuery("SELECT "+word+" FROM "+temp_rows+" ORDER BY random()", null);
+        //    database.execSQL("CREATE TEMP TABLE "+temp_rows+"  AS SELECT "+word+"  FROM "+selectedLangTable+" WHERE random() % 4 = 0 LIMIT 2000");
+    database.execSQL("CREATE TEMP TABLE temp_rows  AS SELECT word  FROM "+selectedLangTable+" WHERE random() % 4 = 0 LIMIT 2000");
+    Cursor cursor = database.rawQuery("SELECT word FROM temp_rows ORDER BY random()", null);
+          //  Cursor cursor = database.rawQuery("SELECT "+word+" FROM "+temp_rows+" ORDER BY random()", null);
 
     cursor.moveToFirst();
 
@@ -56,7 +58,7 @@ public class WSDatabase extends SQLiteAssetHelper {
     database.execSQL("drop table "+temp_rows+"");
     cursor.close();
 
-    return words;
+   //return words;
 }catch (Exception e){}
 return  words;
     }
