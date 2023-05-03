@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="net.appsfreeforall.sopadeletras.delabiblia.activity.DifficultyActivity"
+    tools:context="net.kerishapps.sopadeletrasdelabiblia.sopadeletrasbiblico.activity.DifficultyActivity"
     android:id="@+id/root"
     android:clipChildren="false">
 

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:id="@+id/root"
-    tools:context="net.appsfreeforall.sopadeletras.delabiblia.activity.DifficultyActivity">
+    tools:context="net.kerishapps.sopadeletrasdelabiblia.sopadeletrasbiblico.activity.DifficultyActivity">
 
     <View
         android:id="@+id/day"

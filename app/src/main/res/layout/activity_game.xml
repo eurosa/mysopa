@@ -135,7 +135,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/toolbar">
 
-        <net.appsfreeforall.sopadeletras.delabiblia.game.WSLayout
+        <net.kerishapps.sopadeletrasdelabiblia.sopadeletrasbiblico.game.WSLayout
             android:id="@+id/game_board"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>

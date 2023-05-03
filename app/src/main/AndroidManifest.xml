@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="net.appsfreeforall.sopadeletras.delabiblia"
+    package="net.kerishapps.sopadeletrasdelabiblia.sopadeletrasbiblico"
     android:versionCode="1"
     android:versionName="1.0">
 
@@ -29,11 +29,11 @@
             android:value="@string/admob_app_id"/>
 
         <activity
-            android:name="net.appsfreeforall.sopadeletras.delabiblia.activity.GameActivity"
+            android:name=".activity.GameActivity"
             android:screenOrientation="portrait"
             android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
         <activity
-            android:name="net.appsfreeforall.sopadeletras.delabiblia.activity.IntroActivity"
+            android:name=".activity.IntroActivity"
             android:clearTaskOnLaunch="false"
             android:launchMode="standard"
             android:screenOrientation="portrait"
@@ -48,19 +48,19 @@
 
 
         <activity
-            android:name="net.appsfreeforall.sopadeletras.delabiblia.activity.DifficultyActivity"
+            android:name=".activity.DifficultyActivity"
             android:screenOrientation="portrait"
             android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
         <activity
-            android:name="net.appsfreeforall.sopadeletras.delabiblia.activity.ConfigActivity"
+            android:name=".activity.ConfigActivity"
             android:screenOrientation="portrait"
             android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
         <activity
-            android:name="net.appsfreeforall.sopadeletras.delabiblia.activity.PauseActivity"
+            android:name=".activity.PauseActivity"
             android:screenOrientation="portrait"
             android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
         <activity
-            android:name="net.appsfreeforall.sopadeletras.delabiblia.activity.ResultActivity"
+            android:name=".activity.ResultActivity"
             android:screenOrientation="portrait"
             android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
 

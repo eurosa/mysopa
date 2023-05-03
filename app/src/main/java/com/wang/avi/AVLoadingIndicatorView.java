@@ -17,7 +17,7 @@ import android.view.animation.AnimationUtils;
 
 import com.wang.avi.indicators.BallPulseIndicator;
 
-import net.appsfreeforall.sopadeletras.delabiblia.R;
+import net.kerishapps.sopadeletrasdelabiblia.sopadeletrasbiblico.R;
 
 public class AVLoadingIndicatorView extends View {
 

@@ -33,7 +33,7 @@ import android.view.View;
 import android.view.animation.LinearInterpolator;
 import android.widget.Checkable;
 
-import net.appsfreeforall.sopadeletras.delabiblia.R;
+import net.kerishapps.sopadeletrasdelabiblia.sopadeletrasbiblico.R;
 
 /**
  * Author : andy
